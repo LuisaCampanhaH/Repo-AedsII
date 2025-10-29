@@ -12,7 +12,7 @@
 
 typedef struct Celula{
     int elemento;
-    Celula* prox;
+    struct Celula* prox;
 }Celula;
 typedef struct Pilha{
     Celula* topo;
